@@ -1,0 +1,19 @@
+Page người dùng:
+1. Danh sách bài viết. (index.php)
+2. Bài viết chi tiết. (post.php?id=..)
+
+Page admin:
+- Page login. (admin/login.php)
+1. Trang chào mừng đến với trang quản trị. (admin/index.php)
+2. Trang thông tin người dùng -> Cập nhật thông tin tên, username, email (admin/profile.php)
+3. Trang hộp thư đến (admin/inbox.php) Only role admin
+- Trang xem thư (viewmsg.php?msgid=..)
+4. Thêm người dùng (admin/adduser.php) Only role admin
+5. Danh sách người dùng (admin/userlist.php)
+6. Thêm thể loại (admin/addcat.php)
+7. Danh sách thể loại (admin/catlist.php)
+- Sửa thể loại (admin/editcat.php)
+8. Thêm bài viết (admin/addpost.php)
+9. Danh sách bài viết (admin/postlist.php)
+- Xem thông tin bài viết (admin/viewpost.php?viewpostid=..)
+- Sửa thông tin bài viết (admin/editpost.php?editpostid=..)
